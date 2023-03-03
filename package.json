@@ -1,0 +1,32 @@
+{
+  "name": "@elshina25/ajs-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elshina25/ajs-node.js.git"
+  },
+  "dependencies": {
+    "@elshina25/ajs": "1.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elshina25/ajs-node.js/issues"
+  },
+  "homepage": "https://github.com/Elshina25/ajs-node.js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
